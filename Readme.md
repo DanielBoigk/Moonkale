@@ -8,6 +8,7 @@ Currently, tooling for editing both code and knowledge is fragmented:
 * **Knowledge editors**: Obsidian, Logseq, Notion, etc.
 * Most editors open folders in the file system, but it would often be more beneficial to work directly with structured data, such as from **(graph) databases**.
 * **No-code/low-code/diagrams** are rarely a natural extension of such editors.
+* Not built with **Retrieval Augmented Generation (RAG)** in mind.
 
 Moonkale is an attempt to unify **code + knowledge editing** in a lightweight, extensible, and performant system.
 
@@ -24,6 +25,7 @@ Moonkale is an attempt to unify **code + knowledge editing** in a lightweight, e
   * [ ] **Cytoscape** – Graph visualization and interaction.
   * [ ] **Milkdown** – Markdown editing for knowledge management.
   * [ ] **CodeMirror** – Code editing.
+  * and many more ...
 
 ### Backend
 
@@ -35,7 +37,7 @@ Moonkale is an attempt to unify **code + knowledge editing** in a lightweight, e
 
     * [ ] DuckDB / SQLite
     * [ ] Kuzu / Ladybug
-    * Later support for Postgres, Helix, Redis/Falkor, TypeDB, etc.
+    * Later support for Postgres, Neo4j, Helix, Redis/Falkor, TypeDB, etc.
   * [ ] **Julia connector** – For heavy graph analytics that aren’t fully developed in Rust yet.
 
 ---
