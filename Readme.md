@@ -7,6 +7,7 @@ Currently, tooling for editing both code and knowledge is fragmented:
 * **Code editors**: VSCode, JetBrains, Zed, etc.
 * **Knowledge editors**: Obsidian, Logseq, Notion, etc.
 * Most editors open folders in the file system, but it would often be more beneficial to work directly with structured data, such as from **(graph) databases**.
+* **No-code/low-code/diagrams** are rarely a natural extension of such editors.
 
 Moonkale is an attempt to unify **code + knowledge editing** in a lightweight, extensible, and performant system.
 
@@ -45,3 +46,8 @@ Moonkale is an attempt to unify **code + knowledge editing** in a lightweight, e
 * **Discourage very large files**; prefer small, structured artifacts.
 * **Leverage Rust & Julia for performance**, leaving the frontend lightweight.
 
+--- 
+## Help wanted:
+
+Want to see your programming language, database, or other feature integrated? Open a pull request!
+This FOSS project can’t thrive without a serious community behind it.
