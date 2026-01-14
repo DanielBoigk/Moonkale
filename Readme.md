@@ -4,8 +4,8 @@
 
 Currently, tooling for editing both code and knowledge is fragmented:
 
-* **Code editors**: VSCode, JetBrains, Zed, etc.
-* **Knowledge editors**: [Obsidian](Obsidian.md), Logseq, Notion, ... as well as Wikis
+* **Code editors**: VSCode, JetBrains, [Zed](https://zed.dev/), etc.
+* **Knowledge editors**: [Obsidian](Obsidian.md), Logseq, Notion, ... as well as [Wikis](https://golem.ph.utexas.edu/wiki/instiki/show/HomePage)
 * Most editors open folders in the file system, but it would often be more beneficial to work directly with structured data, such as from **(graph) databases**.
 * **No-code/low-code/diagrams** are rarely a natural extension of such editors.
 * Not built with **Retrieval Augmented Generation (RAG)** in mind.
@@ -28,7 +28,7 @@ Moonkale is an attempt to unify **code + knowledge editing** in a lightweight, e
 
 ### Backend
 
-* **Tauri + Rust** provides a performant backend while keeping the frontend decoupled.
+* **[Tauri](https://tauri.app/start/) + Rust** provides a performant backend while keeping the frontend decoupled.
 * Backend responsibilities:
 
   * [ ] **File management** – Local folder support (discouraged but implemented for completeness).
