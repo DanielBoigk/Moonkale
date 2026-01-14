@@ -8,7 +8,7 @@ Currently, tooling for editing both code and knowledge is fragmented:
 * **Knowledge editors**: [Obsidian](Obsidian.md), Logseq, Notion, ... as well as [Wikis](https://golem.ph.utexas.edu/wiki/instiki/show/HomePage)
 * Most editors open folders in the file system, but it would often be more beneficial to work directly with structured data, such as from **(graph) databases**.
 * **No-code/low-code/diagrams** are rarely a natural extension of such editors.
-* Not built with **Retrieval Augmented Generation (RAG)** in mind.
+* Not built with **Retrieval Augmented Generation (RAG)** or [Unison](https://www.unison-lang.org/docs/the-big-idea/)-like compilers in mind.
 
 Moonkale is an attempt to unify **code + knowledge editing** in a lightweight, extensible, and performant system.
 
