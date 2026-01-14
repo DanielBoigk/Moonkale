@@ -36,6 +36,7 @@ Moonkale is an attempt to unify **code + knowledge editing** in a lightweight, e
     * [ ] DuckDB / SQLite
     * [ ] Kuzu / Ladybug
     * Later support for Postgres, Neo4j, Helix, Redis/Falkor, TypeDB, etc.
+    * Parsing tools like treesitter
 * [ ] **Julia connector** – For heavy graph analytics that aren’t fully developed in Rust yet. (Desktop only)
 
 ---
@@ -58,3 +59,7 @@ This FOSS project can’t thrive without a serious community behind it.
 To run frontend only execute: `deno task dev`
 
 To launch full application run: `deno task tauri dev`
+
+--- 
+
+Moonkale is an open-source project; the name is associated with this repository
