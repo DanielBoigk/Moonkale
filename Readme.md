@@ -1,11 +1,11 @@
-# Moonkale
+# Moonkale (Under Development)
 
 ## Introduction
 
 Currently, tooling for editing both code and knowledge is fragmented:
 
 * **Code editors**: VSCode, JetBrains, Zed, etc.
-* **Knowledge editors**: Obsidian, Logseq, Notion, etc.
+* **Knowledge editors**: Obsidian, Logseq, Notion, ... as well as Wikis
 * Most editors open folders in the file system, but it would often be more beneficial to work directly with structured data, such as from **(graph) databases**.
 * **No-code/low-code/diagrams** are rarely a natural extension of such editors.
 * Not built with **Retrieval Augmented Generation (RAG)** in mind.
@@ -21,7 +21,6 @@ Moonkale is an attempt to unify **code + knowledge editing** in a lightweight, e
 * **Deno + Vite** powers the frontend, keeping the stack lightweight and TypeScript-native.
 * **Lumino** owns the DOM for flexible, IDE-like layouts.
 * Planned components:
-
   * [ ] **Cytoscape** – Graph visualization and interaction.
   * [ ] **Milkdown** – Markdown editing for knowledge management.
   * [ ] **CodeMirror** – Code editing.
@@ -34,7 +33,6 @@ Moonkale is an attempt to unify **code + knowledge editing** in a lightweight, e
 
   * [ ] **File management** – Local folder support (discouraged but implemented for completeness).
   * [ ] **Database backend** – Starting with embedded databases:
-
     * [ ] DuckDB / SQLite
     * [ ] Kuzu / Ladybug
     * Later support for Postgres, Neo4j, Helix, Redis/Falkor, TypeDB, etc.
@@ -47,6 +45,7 @@ Moonkale is an attempt to unify **code + knowledge editing** in a lightweight, e
 * **Keep the frontend simple, fast, and extensible**. No heavy frameworks; Lumino manages layout.
 * **Discourage very large files**; prefer small, structured artifacts.
 * **Leverage Rust & Julia for performance**, leaving the frontend lightweight.
+* **Cross Platform Compatibility** Minus certain extensions it should run on Desktop, Mobile and Web
 
 --- 
 ## Help wanted:
