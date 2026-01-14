@@ -36,7 +36,7 @@ Moonkale is an attempt to unify **code + knowledge editing** in a lightweight, e
     * [ ] DuckDB / SQLite
     * [ ] Kuzu / Ladybug
     * Later support for Postgres, Neo4j, Helix, Redis/Falkor, TypeDB, etc.
-  * [ ] **Julia connector** – For heavy graph analytics that aren’t fully developed in Rust yet.
+* [ ] **Julia connector** – For heavy graph analytics that aren’t fully developed in Rust yet. (Desktop only)
 
 ---
 
