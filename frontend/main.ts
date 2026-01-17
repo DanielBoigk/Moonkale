@@ -1,3 +1,7 @@
-import {Widget} from "@lumino/widgets";
+import { Widget } from "@lumino/widgets";
 
-console.log("Hello from main.ts");
+const w = new Widget();
+w.node.textContent = "Hello World from Lumino";
+w.node.style.padding = "1rem";
+
+Widget.attach(w, document.body);
