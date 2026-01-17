@@ -18,6 +18,7 @@
   "devDependencies": {
     "@lumino/widgets": "^2.6.0",
     "@lumino/signaling": "^2.1.0",
+    "lumino": "^2.6.0",
     "typescript": "~5.9.3",
     "vite": "npm:rolldown-vite@7.2.5"
   },
