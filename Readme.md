@@ -21,7 +21,7 @@ Moonkale is an attempt to unify **code + knowledge editing** in a lightweight, e
 * **[Deno](https://docs.deno.com/runtime/) + [Vite](https://vite.dev/guide/)** powers the frontend, keeping the stack lightweight and TypeScript-native.
 * [**Lumino**](https://lumino.readthedocs.io/en/latest/api/index.html) owns the DOM for flexible, IDE-like layouts.
 * Planned components:
-  * [ ] [**Cytoscape**](https://manual.cytoscape.org/en/stable/) – Graph visualization and interaction.
+  * [ ] [**Cytoscape**](https://js.cytoscape.org/) – Graph visualization and interaction.
   * [ ] [**Milkdown**](https://milkdown.dev/docs/guide/getting-started) – Markdown editing for knowledge management.
   * [ ] [**CodeMirror**](https://codemirror.net/docs/) – Code editing.
   * and many more ...
