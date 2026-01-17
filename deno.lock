@@ -1,13 +1,13 @@
 {
   "version": "5",
   "specifiers": {
+    "npm:@lumino/signaling@^2.1.0": "2.1.5",
+    "npm:@lumino/widgets@^2.6.0": "2.7.3",
     "npm:@milkdown/core@^7.18.0": "7.18.0",
     "npm:@milkdown/crepe@^7.18.0": "7.18.0_typescript@5.9.3_@codemirror+language@6.12.1_@codemirror+state@6.5.3_@codemirror+view@6.39.10",
     "npm:@milkdown/kit@^7.18.0": "7.18.0_typescript@5.9.3",
-    "npm:@tauri-apps/cli@^2.9.6": "2.9.6",
     "npm:codemirror@^6.0.2": "6.0.2",
     "npm:cytoscape@^3.33.1": "3.33.1",
-    "npm:lumino@^2.6.0": "2.6.0",
     "npm:rolldown-vite@7.2.5": "7.2.5_picomatch@4.0.3",
     "npm:typescript@~5.9.3": "5.9.3"
   },
@@ -513,6 +513,91 @@
         "@lezer/lr"
       ]
     },
+    "@lumino/algorithm@2.0.4": {
+      "integrity": "sha512-gddBhESPqu25KWLeAK9Kz8tS9Ph7P45i0CNG7Ia4XMhK9PHLtTsBdJTC9jP+MqhbzC8zDT/4ekvYRV9ojRPj7Q=="
+    },
+    "@lumino/collections@2.0.4": {
+      "integrity": "sha512-D/Py9L5HET6+XUYGxFqDEEth4B65X2c7B/GQVRR8q5Fl7EArVL6e98ZXw8BMkuPcTNa0zlENpCKXzlcoJZxXgQ==",
+      "dependencies": [
+        "@lumino/algorithm"
+      ]
+    },
+    "@lumino/commands@2.3.3": {
+      "integrity": "sha512-7Ci0QdFzt4NKFMhULr19sJPpOLHJw/oYlq6Pb0/Kq1s05+cIoLimr5wiyjkbAlNoGO/8A8SEBGHy3uctZz6G3A==",
+      "dependencies": [
+        "@lumino/algorithm",
+        "@lumino/coreutils",
+        "@lumino/disposable",
+        "@lumino/domutils",
+        "@lumino/keyboard",
+        "@lumino/signaling",
+        "@lumino/virtualdom"
+      ]
+    },
+    "@lumino/coreutils@2.2.2": {
+      "integrity": "sha512-zaKJaK7rawPATn2BGHkbMrR6oK3s9PxNe9KreLwWF2dB4ZBHDiEmNLRyHRorfJ7XqVOEXAsAAj0jFn+qJPC/4Q==",
+      "dependencies": [
+        "@lumino/algorithm"
+      ]
+    },
+    "@lumino/disposable@2.1.5": {
+      "integrity": "sha512-hO9AkJK0oEGzxopuxI8LaZqwzSNwXJTGCdr5K4gh6al+zxpN7rOCh6Aq3zDxkIHJU4zybxv8r02ardx9XJsG3A==",
+      "dependencies": [
+        "@lumino/signaling"
+      ]
+    },
+    "@lumino/domutils@2.0.4": {
+      "integrity": "sha512-naYGUQn3e0CLtz/tjKOZP8SOBg0SW7EguhkxLpNUXlVUvx7rVsfr0VI22FVL+jgI0FbxXpEkxpSMxtK73jxJAg=="
+    },
+    "@lumino/dragdrop@2.1.7": {
+      "integrity": "sha512-oa5EtBC37EiiJsuIFVcK1DywpEb4dnQCMzWnymvjlBXG3/fAIC+65Q/iLoNUWkMz1pc3ET2SZWDporlznxlEbw==",
+      "dependencies": [
+        "@lumino/coreutils",
+        "@lumino/disposable"
+      ]
+    },
+    "@lumino/keyboard@2.0.4": {
+      "integrity": "sha512-kIVkdSz8F5wtZr8hZp0CMX+E0eMCOnFH6XCT7j2UBQ80ERJHFy0eX+IbNo3dtRQ7+CcDhBV4hQquFNFa+/04QQ=="
+    },
+    "@lumino/messaging@2.0.4": {
+      "integrity": "sha512-NbZnchAPOciSe9Qn/g6EzG0LRaw7bygFIXbCD440ZhzvugdBeAerwYhrA795jkXPNrrl3olp5AlO0cBB/XZNtg==",
+      "dependencies": [
+        "@lumino/algorithm",
+        "@lumino/collections"
+      ]
+    },
+    "@lumino/properties@2.0.4": {
+      "integrity": "sha512-XsL2qLZk+1FbfuTrkyjciI8PMDw3YcaBkqVQ+iv7OOJf9bUlrmTpCMY0Hu5d3hV2W3TWlRsdbvRRLEBJSKv0iA=="
+    },
+    "@lumino/signaling@2.1.5": {
+      "integrity": "sha512-Wkx6WR45ynmKBlW0GBEoh4xk9+QluKr1JHuMftqcStBHSQBCnN54UKRRDbySXHGRhhx6p4neu7sGomgQSlQK8w==",
+      "dependencies": [
+        "@lumino/algorithm",
+        "@lumino/coreutils"
+      ]
+    },
+    "@lumino/virtualdom@2.0.4": {
+      "integrity": "sha512-7MFthA9KUsqZTGm/D98FZt1QupjIGyd3XyB4SIugn6DQAqhjBiyykCZydnRq3qmuMHybQel33dNIbHpzyNyQwA==",
+      "dependencies": [
+        "@lumino/algorithm"
+      ]
+    },
+    "@lumino/widgets@2.7.3": {
+      "integrity": "sha512-3JFdx5TJng0v1N794EhxJv4cMIQJwKzfEW9X81DUBSZ0GpnFv9N3lKUo0wDqx8a3lnrTzkru64+DVxRTbfSxVQ==",
+      "dependencies": [
+        "@lumino/algorithm",
+        "@lumino/commands",
+        "@lumino/coreutils",
+        "@lumino/disposable",
+        "@lumino/domutils",
+        "@lumino/dragdrop",
+        "@lumino/keyboard",
+        "@lumino/messaging",
+        "@lumino/properties",
+        "@lumino/signaling",
+        "@lumino/virtualdom"
+      ]
+    },
     "@marijn/find-cluster-break@1.0.2": {
       "integrity": "sha512-l0h88YhZFyKdXIFNfSWpyjStDjGHwZ/U7iobcK1cQQD8sejsONdQtTVU+1wVN1PBw40PiiHB1vA5S7VTfQiP9g=="
     },
@@ -885,78 +970,6 @@
     "@rolldown/pluginutils@1.0.0-beta.50": {
       "integrity": "sha512-5e76wQiQVeL1ICOZVUg4LSOVYg9jyhGCin+icYozhsUzM+fHE7kddi1bdiE0jwVqTfkjba3jUFbEkoC9WkdvyA=="
     },
-    "@tauri-apps/cli-darwin-arm64@2.9.6": {
-      "integrity": "sha512-gf5no6N9FCk1qMrti4lfwP77JHP5haASZgVbBgpZG7BUepB3fhiLCXGUK8LvuOjP36HivXewjg72LTnPDScnQQ==",
-      "os": ["darwin"],
-      "cpu": ["arm64"]
-    },
-    "@tauri-apps/cli-darwin-x64@2.9.6": {
-      "integrity": "sha512-oWh74WmqbERwwrwcueJyY6HYhgCksUc6NT7WKeXyrlY/FPmNgdyQAgcLuTSkhRFuQ6zh4Np1HZpOqCTpeZBDcw==",
-      "os": ["darwin"],
-      "cpu": ["x64"]
-    },
-    "@tauri-apps/cli-linux-arm-gnueabihf@2.9.6": {
-      "integrity": "sha512-/zde3bFroFsNXOHN204DC2qUxAcAanUjVXXSdEGmhwMUZeAQalNj5cz2Qli2elsRjKN/hVbZOJj0gQ5zaYUjSg==",
-      "os": ["linux"],
-      "cpu": ["arm"]
-    },
-    "@tauri-apps/cli-linux-arm64-gnu@2.9.6": {
-      "integrity": "sha512-pvbljdhp9VOo4RnID5ywSxgBs7qiylTPlK56cTk7InR3kYSTJKYMqv/4Q/4rGo/mG8cVppesKIeBMH42fw6wjg==",
-      "os": ["linux"],
-      "cpu": ["arm64"]
-    },
-    "@tauri-apps/cli-linux-arm64-musl@2.9.6": {
-      "integrity": "sha512-02TKUndpodXBCR0oP//6dZWGYcc22Upf2eP27NvC6z0DIqvkBBFziQUcvi2n6SrwTRL0yGgQjkm9K5NIn8s6jw==",
-      "os": ["linux"],
-      "cpu": ["arm64"]
-    },
-    "@tauri-apps/cli-linux-riscv64-gnu@2.9.6": {
-      "integrity": "sha512-fmp1hnulbqzl1GkXl4aTX9fV+ubHw2LqlLH1PE3BxZ11EQk+l/TmiEongjnxF0ie4kV8DQfDNJ1KGiIdWe1GvQ==",
-      "os": ["linux"],
-      "cpu": ["riscv64"]
-    },
-    "@tauri-apps/cli-linux-x64-gnu@2.9.6": {
-      "integrity": "sha512-vY0le8ad2KaV1PJr+jCd8fUF9VOjwwQP/uBuTJvhvKTloEwxYA/kAjKK9OpIslGA9m/zcnSo74czI6bBrm2sYA==",
-      "os": ["linux"],
-      "cpu": ["x64"]
-    },
-    "@tauri-apps/cli-linux-x64-musl@2.9.6": {
-      "integrity": "sha512-TOEuB8YCFZTWVDzsO2yW0+zGcoMiPPwcUgdnW1ODnmgfwccpnihDRoks+ABT1e3fHb1ol8QQWsHSCovb3o2ENQ==",
-      "os": ["linux"],
-      "cpu": ["x64"]
-    },
-    "@tauri-apps/cli-win32-arm64-msvc@2.9.6": {
-      "integrity": "sha512-ujmDGMRc4qRLAnj8nNG26Rlz9klJ0I0jmZs2BPpmNNf0gM/rcVHhqbEkAaHPTBVIrtUdf7bGvQAD2pyIiUrBHQ==",
-      "os": ["win32"],
-      "cpu": ["arm64"]
-    },
-    "@tauri-apps/cli-win32-ia32-msvc@2.9.6": {
-      "integrity": "sha512-S4pT0yAJgFX8QRCyKA1iKjZ9Q/oPjCZf66A/VlG5Yw54Nnr88J1uBpmenINbXxzyhduWrIXBaUbEY1K80ZbpMg==",
-      "os": ["win32"],
-      "cpu": ["ia32"]
-    },
-    "@tauri-apps/cli-win32-x64-msvc@2.9.6": {
-      "integrity": "sha512-ldWuWSSkWbKOPjQMJoYVj9wLHcOniv7diyI5UAJ4XsBdtaFB0pKHQsqw/ItUma0VXGC7vB4E9fZjivmxur60aw==",
-      "os": ["win32"],
-      "cpu": ["x64"]
-    },
-    "@tauri-apps/cli@2.9.6": {
-      "integrity": "sha512-3xDdXL5omQ3sPfBfdC8fCtDKcnyV7OqyzQgfyT5P3+zY6lcPqIYKQBvUasNvppi21RSdfhy44ttvJmftb0PCDw==",
-      "optionalDependencies": [
-        "@tauri-apps/cli-darwin-arm64",
-        "@tauri-apps/cli-darwin-x64",
-        "@tauri-apps/cli-linux-arm-gnueabihf",
-        "@tauri-apps/cli-linux-arm64-gnu",
-        "@tauri-apps/cli-linux-arm64-musl",
-        "@tauri-apps/cli-linux-riscv64-gnu",
-        "@tauri-apps/cli-linux-x64-gnu",
-        "@tauri-apps/cli-linux-x64-musl",
-        "@tauri-apps/cli-win32-arm64-msvc",
-        "@tauri-apps/cli-win32-ia32-msvc",
-        "@tauri-apps/cli-win32-x64-msvc"
-      ],
-      "bin": true
-    },
     "@tybys/wasm-util@0.10.1": {
       "integrity": "sha512-9tTaPJLSiejZKx+Bmog4uSubteqTvFrVrURwkmHixBo0G4seD0zUxp98E1DzUBJxLQ3NPwXrGKDiVjwx/DpPsg==",
       "dependencies": [
@@ -1254,12 +1267,6 @@
     },
     "longest-streak@3.1.0": {
       "integrity": "sha512-9Ri+o0JYgehTaVBBDoMqIl8GXtbWg711O3srftcHhZ0dqnETqLaoIK0x17fUw9rFSlK/0NlsKe0Ahhyl5pXE2g=="
-    },
-    "lumino@2.6.0": {
-      "integrity": "sha512-HI8Asi2nEB8nrqFqvbo7LzIkhx2eXYU+pQ1ZOqI72j4RyfQUVa8iItcw5owu6/tjxDccpX/I5SQrp4Frz9tRBg==",
-      "dependencies": [
-        "typescript@4.9.5"
-      ]
     },
     "magic-string@0.30.21": {
       "integrity": "sha512-vd2F4YUyEXKGcLHoq+TEyCjxueSeHnFxyyjNp80yg0XV4vUhnDer/lvvlqM/arB5bXQN5K2/3oinyCRyx8T2CQ==",
@@ -1918,10 +1925,6 @@
     "tslib@2.8.1": {
       "integrity": "sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w=="
     },
-    "typescript@4.9.5": {
-      "integrity": "sha512-1FXk9E2Hm+QzZQ7z+McJiHL4NW1F2EzMu9Nq9i3zAaGqibafqYwCVU6WyWAuyQRRzOlxou8xZSyXLEN8oKj24g==",
-      "bin": true
-    },
     "typescript@5.9.3": {
       "integrity": "sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==",
       "bin": true
@@ -1994,10 +1997,10 @@
         "@vue/runtime-dom",
         "@vue/server-renderer",
         "@vue/shared",
-        "typescript@5.9.3"
+        "typescript"
       ],
       "optionalPeers": [
-        "typescript@5.9.3"
+        "typescript"
       ]
     },
     "w3c-keyname@2.2.8": {
@@ -2010,13 +2013,13 @@
   "workspace": {
     "packageJson": {
       "dependencies": [
+        "npm:@lumino/signaling@^2.1.0",
+        "npm:@lumino/widgets@^2.6.0",
         "npm:@milkdown/core@^7.18.0",
         "npm:@milkdown/crepe@^7.18.0",
         "npm:@milkdown/kit@^7.18.0",
-        "npm:@tauri-apps/cli@^2.9.6",
         "npm:codemirror@^6.0.2",
         "npm:cytoscape@^3.33.1",
-        "npm:lumino@^2.6.0",
         "npm:rolldown-vite@7.2.5",
         "npm:typescript@~5.9.3"
       ]

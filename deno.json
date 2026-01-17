@@ -1,0 +1,6 @@
+{
+  "tasks": {
+    "tauri:dev": "cd backend && cargo tauri dev",
+    "tauri:build": "cd backend && cargo tauri build"
+  }
+}

@@ -58,7 +58,7 @@ This FOSS project can’t thrive without a serious community behind it.
 
 To run frontend only execute: `deno task dev`
 
-To launch full application run: `deno task tauri dev`
+To launch full application run: `deno task tauri:dev`
 
 --- 
 
